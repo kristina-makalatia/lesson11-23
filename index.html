@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form & meta tags</title>
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <form action="" method="POST">
+            <div class="wraper-form">
+                <label for="fisrtname">Name</label>
+                <input class="input-wraper" type="text" id="fisrtname" name="fname" placeholder="Enter Your First Name.." required>
+            </div>
+
+            <div class="wraper-form">
+                <label for="mypass">Password</label>
+                <input class="input-wraper" type="password" id="mypass" name="password" placeholder="Enter Your Password.." required>
+            </div>
+
+            <div class="wraper-form">
+                <label for="">Review</label>
+                <textarea class="textarea-wraper" name="" id="" placeholder="Your Review.."></textarea>
+            </div>
+
+            <div>
+                <div>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                </div>             
+            </div>
+
+            <div>
+                <div>
+                    <input type="checkbox" id="music" name="hobbymusic">
+                    <label for="music">Music</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="dance" name="hobbydance">
+                    <label for="dance">Dance</label>
+                </div>             
+            </div>
+
+            <button class="btn-send" type="submit"> Send </button>
+        </form>
+    </section>
+
+    <section>
+        <div class="container">
+            <form class="form-wraper">
+                <div class="left-block">
+                    <textarea class="textarea-block" name="" id=""></textarea>
+                </div>
+                <div class="right-block">
+                    <input class="input-block" type="text" id="subject" name="inputsubject">
+                    <input class="input-block" type="text" id="name" name="inputname">
+                    <input class="input-block" type="email" id="email" name="inputemail">
+                    <button class="btn" type="submit">Send <i class="fas fa-paper-plane"></i></button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
